@@ -1,0 +1,237 @@
+@import './reset.css';
+
+/* General styles */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+button {
+    height: 26px;
+    border-radius: 2px;
+    background-color: #111B47;
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.logo {
+    color: #37447E;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 38px;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #505F98;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Main classes styles */
+
+.text-content {
+    padding: 30px 0;
+}
+
+.section-title {
+    color: #091133;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    padding: 0 0 16px 0;
+}
+
+.section-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6F7CB2;
+    padding: 0 0 10px 0;
+}
+
+/* Header styles */
+
+header {
+    height: 762px;
+    padding: 0 165px;
+    display: grid;
+    grid-template-rows: 60px 702px;
+    grid-template-columns: 7fr 3fr 1fr 1fr;
+    column-gap: 26px;
+    align-items: center;
+    background: url(./img/section-photo1.png) no-repeat;
+    background-position: 800px 220px;
+}
+
+header button {
+    width: 104px;
+}
+
+.buy-button {
+    color: #111B47;
+    background-color: #FFD166;
+}
+
+/* Section with image part */
+
+.section_with-image-part{
+    padding: 110px 165px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 540px auto;
+}
+
+.section-image {
+    background-image: url(./img/section-photo2.svg);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.cards-area {
+    padding: 35px 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+
+.card img{
+    width: 36px;
+    height: 36px;
+    margin: 0 0 14px 0;
+}
+
+.card-title {
+    color: #091133;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 0 6px 0;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #5D6970;
+}
+
+/* Price section styles */
+
+.section_price {
+    padding: 59px 165px 211px 165px;
+}
+
+.section_price .text-content {
+    max-width: 730px;
+}
+
+.price-cards {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    margin: 77px 0 0 0;
+}
+
+.price-card .price {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: #37447E;
+    text-transform: uppercase;
+    padding: 0 0 16px 0;
+}
+
+.price-card-title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: #091133;
+    padding: 0 0 8px 0;
+}
+
+.price-card-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #5D6970;
+    padding: 0 0 6px 0;
+}
+
+.price-card-button {
+    margin: 24px 0 0 0;
+    width: 189px;
+}
+
+/* Footer styles */
+
+footer {
+    background-color: #E7ECFF;
+    padding: 37px 0 30px;
+}
+
+.footer-content-wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.sup-footer {
+    display: grid;
+    grid-template-rows: 81px;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid #CDD1D4;
+    margin: 0 0 22px 0;
+}
+
+footer .logo {
+    text-align: right;
+}
+
+footer .copyright {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #939EA4;
+}
+
+.footer-button {
+    display: block;
+    width: 109px;
+    margin: 0 auto;
+    
+}
+
+footer nav {
+    margin: 0 auto;
+    max-width: 245px;
+    padding: 18px 0 0 0;
+}
+
+footer nav a {
+    color: #929ECC;
+}
+
+.social-links {
+    margin: 0 auto;
+    max-width: 200px;
+    display: flex;
+    gap: 30px;
+    padding: 26px 0 0px 0;
+}
