@@ -1,0 +1,13 @@
+.description-section {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-top: 160px;
+}
+
+.section2-image {
+    background-image: url(./img/section-photo2.svg);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
