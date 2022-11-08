@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color:#666
+}
+
+.Wrapper {
+    width: 99.8%;
+}
+
+.Header {
+    display: flex;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.Header__menu {
+    display: flex;
+    width: 22%;
+    margin-right: 53%;
+    align-items: center;
+}
+
+.Header__menu__logo {
+    color: #929292;
+    font-size: 24px;
+    padding: 10px 20px 10px 15px;
+}
+
+.Header__menu_nav {
+    display: flex;
+    align-items: center;
+}
+
+.Header__menu_nav span {
+    padding: 15px 10px 15px 10px;
+    cursor: pointer;
+}
+
+.Active {
+    background-color: #008f8c;
+    color: white;
+}
+
+.Header__input {
+    display: flex;
+    align-items: center;
+    width: 22%;
+}
+
+.Header__input input {
+    height: 57%;
+    width: 180px;
+    margin-right: 15px;
+    border-radius: 2px;
+    border: 1px solid #929292;
+    outline: none;
+    padding: 0px 10px 0px 10px;
+}
+
+.Header__input__btn {
+    display: flex;
+}
+
+.Header__input__btn div {
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Header__input__btn__blue {
+    border: 1px solid #008f8c;
+    color: #008f8c;
+    margin-right: 15px;
+}
+
+.Header__input__btn__blue:hover {
+    background-color: #008f8c;
+    color: white;
+}
+
+.Header__input__btn__red {
+    border: 1px solid #9fc131;
+    color: #9fc131;
+}
+
+.Header__input__btn__red:hover {
+    color: white;
+    background-color: #9fc131;
+}
+
+/**********MainContent***********/
+
+.Main__content {
+    display: flex;
+
+}
+
+.Side__bar {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    width: 200px;
+    border-right: 1px solid #d1d1d1;
+}
+
+.Side__bar h2 {
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.Side__bar__top__sort {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #d1d1d1;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.sort__txt {
+    width: 90%;
+    color: #616161;
+    font-weight: 700;
+}
+
+.Side__bar__bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.Side__bar__bottom__btn {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px 15px 8px 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: #008f8c;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Side__bar__bottom__res {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Side__bar__bottom__res p {
+    color: #666;
+}
+
+.Side__bar__bottom__res span {
+    font-weight: 700;
+    color: #4e4e4e;
+}
+
+
+/**************Content*************/
+
+.Content {
+    display: flex;
+    margin-left: 10px;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 10px;
+}
+
+.Card {
+    width: 235px;
+    border: 2px solid #d1d1d1;
+    height: 320px;
+    margin-bottom: 20px;
+}
+
+.Card__content {
+    padding: 10px;
+}
+
+.Card__content span {
+    color: #9f9f9f;
+}
+
+.Card h2 {
+    margin-bottom: 10px;
+}
+
+.Card__description {
+    margin-bottom: 10px;
+    color: #5c5c5c;
+}
+
+.Card__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#Sort {
+    background-color: #008f8c;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    padding: 5px;
+    font-weight: 700;
+}
